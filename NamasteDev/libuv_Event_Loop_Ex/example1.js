@@ -7,7 +7,7 @@ setImmediate(()=>console.log("setimmidiate()"));
 
 setTimeout(()=>console.log("setTimeout()"), 0);
 
-fs.readFile("./file.text", "utf-8", ()=>{
+fs.readFile("./text-file.txt", "utf-8", ()=>{
     console.log("file reading callback executed")
 });
 
@@ -33,8 +33,8 @@ process.nextTick()
 process.nextTick()
 Promise
 setTimeout()
-file reading callback executed
 setimmidiate()
+file reading callback executed
 
 
 */
